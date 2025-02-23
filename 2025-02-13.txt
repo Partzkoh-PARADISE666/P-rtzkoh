@@ -1,0 +1,468 @@
+16:32:59.466 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:32:59.496 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:32:59.499 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:32:59.501 MT-BillingManager[ (BillingManager.java:138)#<init> ] Creating Billing client.
+16:32:59.503 MT-BillingManager[ (BillingManager.java:151)#initBillClient ] Starting setup.
+16:32:59.505 MT-BillingManager[ (BillingManager.java:771)#onBillingSetupFinished ] Setup finished. Response code: 5 Response msg:Client is already in the process of connecting to billing service.
+16:32:59.509 MT-FirebaseConfig[ (FirebaseConfig.kt:107)#initFirebaseRemoteConfig ] initFirebaseRemoteConfig 
+16:32:59.511 MT-FirstOpenTime[ (SaveUtils.java:558)#getFirstOpenTime ] get : 1739223871575
+16:32:59.514 MT-Event_ManagerWA[ (EventManager.kt:79)#updateConfig ] EventApiService
+16:32:59.522 MT-RetrofitManager.java[ (RetrofitManager.java:178)#lambda$new$0$wondershare-common-utils-network_report-RetrofitManager ] Sending request https://mobiletrans-api.wondershare.com/sys-v3/app-init?timestamp=1739453579519&vc=378492b0b675235c102848de23e3f173 
+User-Agent: MobileTrans/4.7.4.804 (Android 12)
+X-Client-Type: 4
+X-Platform: 1
+X-Client-Sn: ffffffff-a1c0-900b-ffff-ffff9a8547ef
+X-App-Key: EJHJ6RVIPABOKZQYGBLRI482IC7QQ947
+X-Client-Ver: 4.7.4.804
+X-Lang: en-ie
+X-Timezone: Asia/Riyadh
+Accept-Language: en
+X-Prod-Ver: 4.7.4.804
+
+16:32:59.623 MT-BillingManager[ (BillingManager.java:771)#onBillingSetupFinished ] Setup finished. Response code: 0 Response msg:
+16:32:59.626 MT-BillingManager[ (BillingManager.java:164)#run ] Setup successful. Querying inventory.
+16:32:59.632 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 6ms
+16:32:59.634 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:32:59.636 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:32:59.643 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 17ms
+16:32:59.648 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:32:59.650 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:32:59.652 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:32:59.655 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:32:59.656 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:32:59.658 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:32:59.660 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:32:59.661 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:32:59.663 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 188
+16:32:59.664 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:00.522 MT-RetrofitManager.java[ (RetrofitManager.java:204)#lambda$new$0$wondershare-common-utils-network_report-RetrofitManager ] Received response for https://mobiletrans-api.wondershare.com/sys-v3/app-init?timestamp=1739453579519&vc=378492b0b675235c102848de23e3f173 in 999.5ms 200 
+ {"code":0,"msg":"success","data":{"activity":{"new_alert":{"buy":null,"new_version":{"id":0,"image":"","title":"","body":"Optimize interaction, better experience","button_text":"","version":"4.6.6","mod":0}},"free_trial_buy":null,"buy":null},"ab_test":[{"test_id":"MT_MESSAGE_STATE#4.3.6","plan":0},{"test_id":"MT_BUY_20221205","plan":1},{"test_id":"mt_es_Promotion2023","plan":1},{"test_id":"MT_BUY_20230530","plan":0},{"test_id":"MT_BUY_20230607","plan":0},{"test_id":"Sms_Last_Version_Code","plan":66},{"test_id":"2023backschool","plan":1},{"test_id":"AB_TEST_ID_230825","plan":1},{"test_id":"2023iphone15","plan":1},{"test_id":"2023halloween","plan":0},{"test_id":"AB_TEST_ID_231017","plan":0},{"test_id":"2023BlackFriday","plan":0},{"test_id":"AB_TEST_ID231127","plan":2},{"test_id":"2023Christmas","plan":0},{"test_id":"AB_TEST_ID240306","plan":0},{"test_id":"Lastseen_AB_TEST_ID240618","plan":1},{"test_id":"AB_TEST_ID_240314","plan":1},{"test_id":"Wutsapper_AB_TEST_ID240418","plan":2},{"test_id":"WUTSAPPER_ACTIVITY_220630","plan":0},{"test_id":"WUTSAPPER_ACTIVITY_221114","plan":1},{"test_id":"WUTSAPPER_ACTIVITY_221115","plan":0},{"test_id":"WUTSAPPER_PRICE_202203","plan":2},{"test_id":"AB_TEST_ID_240423","plan":1},{"test_id":"AB_TEST_ID_240506","plan":1},{"test_id":"mt_spanish2024","plan":0},{"test_id":"AB_TEST_ID_240520","plan":1},{"test_id":"mt_midYear2024","plan":0},{"test_id":"Wutsapper_PriceAB_TEST_ID240806","plan":0},{"test_id":"Wutsapper_FrontBuy_TEST_ID240904","plan":1},{"test_id":"mt_NewPhone_240910","plan":0},{"test_id":"mt_halloween_241022","plan":0},{"test_id":"mt_Christmas_241213","plan":0},{"test_id":"mt_MonthAB_TEST_250107","plan":1}],"app_alert":{"alert_id":"mt_Christmas2022","alert_expire":1701360000000},"client_created_at":1739223873000}}
+16:33:00.526 MT-Event_ManagerWA[ (EventManager.kt:83)#invoke ] EventBean{activity=EventBean{free_trial_buy=null, buy=null, alert=null, new_alert=NewAlertBean{new_version=NewVersionBean{id=0, image='', title='', body='Optimize interaction, better experience', button_text='', version='4.6.6', mod='0'}}}, ab_test=[ABTestInfo{test_id='MT_MESSAGE_STATE#4.3.6', plan=0}, ABTestInfo{test_id='MT_BUY_20221205', plan=1}, ABTestInfo{test_id='mt_es_Promotion2023', plan=1}, ABTestInfo{test_id='MT_BUY_20230530', plan=0}, ABTestInfo{test_id='MT_BUY_20230607', plan=0}, ABTestInfo{test_id='Sms_Last_Version_Code', plan=66}, ABTestInfo{test_id='2023backschool', plan=1}, ABTestInfo{test_id='AB_TEST_ID_230825', plan=1}, ABTestInfo{test_id='2023iphone15', plan=1}, ABTestInfo{test_id='2023halloween', plan=0}, ABTestInfo{test_id='AB_TEST_ID_231017', plan=0}, ABTestInfo{test_id='2023BlackFriday', plan=0}, ABTestInfo{test_id='AB_TEST_ID231127', plan=2}, ABTestInfo{test_id='2023Christmas', plan=0}, ABTestInfo{test_id='AB_TEST_ID240306', plan=0}, ABTestInfo{test_id='Lastseen_AB_TEST_ID240618', plan=1}, ABTestInfo{test_id='AB_TEST_ID_240314', plan=1}, ABTestInfo{test_id='Wutsapper_AB_TEST_ID240418', plan=2}, ABTestInfo{test_id='WUTSAPPER_ACTIVITY_220630', plan=0}, ABTestInfo{test_id='WUTSAPPER_ACTIVITY_221114', plan=1}, ABTestInfo{test_id='WUTSAPPER_ACTIVITY_221115', plan=0}, ABTestInfo{test_id='WUTSAPPER_PRICE_202203', plan=2}, ABTestInfo{test_id='AB_TEST_ID_240423', plan=1}, ABTestInfo{test_id='AB_TEST_ID_240506', plan=1}, ABTestInfo{test_id='mt_spanish2024', plan=0}, ABTestInfo{test_id='AB_TEST_ID_240520', plan=1}, ABTestInfo{test_id='mt_midYear2024', plan=0}, ABTestInfo{test_id='Wutsapper_PriceAB_TEST_ID240806', plan=0}, ABTestInfo{test_id='Wutsapper_FrontBuy_TEST_ID240904', plan=1}, ABTestInfo{test_id='mt_NewPhone_240910', plan=0}, ABTestInfo{test_id='mt_halloween_241022', plan=0}, ABTestInfo{test_id='mt_Christmas_241213', plan=0}, ABTestInfo{test_id='mt_MonthAB_TEST_250107', plan=1}], app_alert=AppAlert{alert_id='mt_Christmas2022', alert_expire=1701360000000}, free_trial_buy=null, buy=null, alert=null}
+16:33:00.726 MT-FirebaseConfig[ (FirebaseConfig.kt:211)#updatePromotionStyle$lambda$3 ] ->>>json.isEmpty
+16:33:00.733 MT-FirebaseConfig[ (FirebaseConfig.kt:180)#invokeSuspend ] getFromAssets localStyle SUCCESS
+16:33:00.735 MT-FirebaseConfig[ (FirebaseConfig.kt:437)#notifyUI ] notifyUI CallOnMainStart Style null localStyle
+16:33:01.075 MT-fetchPermission[ (GuideActivity.kt:233)#onGranted ] onGranted: 获取存储权限成功
+16:33:01.156 MT-DataScanManager[ (ImageHelp.java:31)#getItemList ] getItemList: begin 
+16:33:01.158 MT-Loading[ (TransMainActivity.kt:168)#showLoadingLogic ] show Loading 
+16:33:01.160 MT-Loading[ (TransMainActivity.kt:206)#showLoading ] showLoading show true tag:FirebaseConfig
+16:33:01.162 MT-RetrofitFactory.kt[ (RetrofitFactory.kt:172)#mLoggingInterceptor$lambda$2 ] Sending request https://api.wondershare.cc/v3/user/client/token 
+Content-Type: application/json
+charset: utf-8
+X-Client-Sn: {433A7A58E9FA0552-89B4292BEE9BDDF4009E5F17D68DFE4B}
+X-Client-Type: 4
+X-Lang: en-ie
+User-Agent: MobileTrans/4.7.4.804 (Android 12)
+X-Prod-Ver: 4.7.4.804
+X-Ver: 3
+X-App-Key: 9c545dc1f0975aa958d50ee122a0df56
+X-Prod-Id: 8156
+Authorization: Bearer 3rWOS9iSiQs6jZe0jKQwDmQ
+
+16:33:01.179 MT-EmptyFileScanManager.kt[ (EmptyFileScanManager.kt:59)#startScan$lambda$1 ] Video time = 23 deleteList=0  allList = 1
+16:33:01.184 MT-Loading[ (TransMainActivity.kt:206)#showLoading ] showLoading show true tag:AllOrder
+16:33:01.186 MT-Loading[ (TransMainActivity.kt:206)#showLoading ] showLoading show true tag:Cmp
+16:33:01.190 MT-FirebaseConfig[ (FirebaseConfig.kt:132)#fetchStyle ]  setCallOnMainStart 
+16:33:01.194 MT-FirebaseConfig[ (FirebaseConfig.kt:173)#readLocalStyle ] readLocalStyle localStyle SUCCESS:localStyle
+16:33:01.197 MT-FirebaseConfig[ (FirebaseConfig.kt:143)#invoke ]  initFirebaseRemoteConfig fetch 
+16:33:01.199 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:01.201 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:33:01.204 MT-DataScanManager[ (ImageHelp.java:59)#getItemList ] getItemList: 8
+16:33:01.206 MT-split_apks[ (ApkHelp.java:272)#getApks ] 开始压缩：1739453581154
+16:33:01.212 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:33:01.217 MT-EmptyFileScanManager.kt[ (EmptyFileScanManager.kt:59)#startScan$lambda$1 ] Audio time = 14 deleteList=0  allList = 0
+16:33:01.220 MT-EmptyFileScanManager.kt[ (EmptyFileScanManager.kt:59)#startScan$lambda$1 ] Image time = 41 deleteList=0  allList = 8
+16:33:01.224 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 12ms
+16:33:01.226 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:01.229 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:01.233 MT-Loading[ (TransMainActivity.kt:186)#invoke ] AllOrderManager need time :  57
+16:33:01.235 MT-Loading[ (TransMainActivity.kt:206)#showLoading ] showLoading show false tag:AllOrder
+16:33:01.237 MT-getHasAllOrder[ (SaveUtils.java:528)#getHasAllOrder ] true
+16:33:01.240 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 33ms
+16:33:01.244 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:01.247 MT-TransMainActivity.kt[ (TransMainActivity.kt:624)#firebaseInit$lambda$7 ] token:dddJLZOITjihN5CYoToUW2:APA91bFRLMCIFI_b0lQwVIi7rwLoPiWhAOIScOzD6lggXmcg9vIH3ifn8Vi44zTZ8Hgn8k5ztt4JpuqPPb5rqKlhclgL1RuOFDUVoDosZcne6mFxSXhmHuY
+16:33:01.249 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:01.253 MT-TransMainActivity.kt[ (TransMainActivity.kt:624)#firebaseInit$lambda$7 ] token:dddJLZOITjihN5CYoToUW2:APA91bFRLMCIFI_b0lQwVIi7rwLoPiWhAOIScOzD6lggXmcg9vIH3ifn8Vi44zTZ8Hgn8k5ztt4JpuqPPb5rqKlhclgL1RuOFDUVoDosZcne6mFxSXhmHuY
+16:33:01.254 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:33:01.258 MT-RetrofitManager.java[ (RetrofitManager.java:178)#lambda$new$0$wondershare-common-utils-network_report-RetrofitManager ] Sending request https://mobiletrans-api.wondershare.com/sys-v3/app-init?timestamp=1739453581229&vc=e336d2f1e2acb7746c2ed0465f4a52b8 
+User-Agent: MobileTrans/4.7.4.804 (Android 12)
+X-Client-Type: 4
+X-Platform: 1
+X-Client-Sn: ffffffff-a1c0-900b-ffff-ffff9a8547ef
+X-App-Key: EJHJ6RVIPABOKZQYGBLRI482IC7QQ947
+X-Client-Ver: 4.7.4.804
+X-Lang: en-ie
+X-Timezone: Asia/Riyadh
+Accept-Language: en
+X-Prod-Ver: 4.7.4.804
+
+16:33:01.260 MT-RetrofitManager.java[ (RetrofitManager.java:178)#lambda$new$0$wondershare-common-utils-network_report-RetrofitManager ] Sending request https://mobiletrans-api.wondershare.com/sys-v3/app-init?timestamp=1739453581228&vc=aa9226aa43390cdb57ba52c3375b6e03 
+User-Agent: MobileTrans/4.7.4.804 (Android 12)
+X-Client-Type: 4
+X-Platform: 1
+X-Client-Sn: ffffffff-a1c0-900b-ffff-ffff9a8547ef
+X-App-Key: EJHJ6RVIPABOKZQYGBLRI482IC7QQ947
+X-Client-Ver: 4.7.4.804
+X-Lang: en-ie
+X-Timezone: Asia/Riyadh
+Accept-Language: en
+X-Prod-Ver: 4.7.4.804
+
+16:33:01.261 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:33:01.263 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:33:01.264 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:33:01.266 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:33:01.268 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:33:01.408 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:33:01.433 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:33:01.436 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:33:01.438 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:33:01.453 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:33:01.456 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:33:01.458 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:33:01.460 MT-RetrofitManager.java[ (RetrofitManager.java:204)#lambda$new$0$wondershare-common-utils-network_report-RetrofitManager ] Received response for https://mobiletrans-api.wondershare.com/sys-v3/app-init?timestamp=1739453581229&vc=e336d2f1e2acb7746c2ed0465f4a52b8 in 228.9ms 200 
+ {"code":0,"msg":"success","data":{"activity":{"new_alert":{"buy":null,"new_version":{"id":0,"image":"","title":"","body":"Optimize interaction, better experience","button_text":"","version":"4.6.6","mod":0}},"free_trial_buy":null,"buy":null},"ab_test":[{"test_id":"MT_MESSAGE_STATE#4.3.6","plan":0},{"test_id":"MT_BUY_20221205","plan":1},{"test_id":"mt_es_Promotion2023","plan":1},{"test_id":"MT_BUY_20230530","plan":0},{"test_id":"MT_BUY_20230607","plan":0},{"test_id":"Sms_Last_Version_Code","plan":66},{"test_id":"2023backschool","plan":1},{"test_id":"AB_TEST_ID_230825","plan":1},{"test_id":"2023iphone15","plan":1},{"test_id":"2023halloween","plan":0},{"test_id":"AB_TEST_ID_231017","plan":0},{"test_id":"2023BlackFriday","plan":0},{"test_id":"AB_TEST_ID231127","plan":2},{"test_id":"2023Christmas","plan":0},{"test_id":"AB_TEST_ID240306","plan":0},{"test_id":"Lastseen_AB_TEST_ID240618","plan":1},{"test_id":"AB_TEST_ID_240314","plan":1},{"test_id":"Wutsapper_AB_TEST_ID240418","plan":2},{"test_id":"WUTSAPPER_ACTIVITY_220630","plan":0},{"test_id":"WUTSAPPER_ACTIVITY_221114","plan":1},{"test_id":"WUTSAPPER_ACTIVITY_221115","plan":0},{"test_id":"WUTSAPPER_PRICE_202203","plan":2},{"test_id":"AB_TEST_ID_240423","plan":1},{"test_id":"AB_TEST_ID_240506","plan":1},{"test_id":"mt_spanish2024","plan":0},{"test_id":"AB_TEST_ID_240520","plan":1},{"test_id":"mt_midYear2024","plan":0},{"test_id":"Wutsapper_PriceAB_TEST_ID240806","plan":0},{"test_id":"Wutsapper_FrontBuy_TEST_ID240904","plan":1},{"test_id":"mt_NewPhone_240910","plan":0},{"test_id":"mt_halloween_241022","plan":0},{"test_id":"mt_Christmas_241213","plan":0},{"test_id":"mt_MonthAB_TEST_250107","plan":1}],"app_alert":{"alert_id":"mt_Christmas2022","alert_expire":1701360000000},"client_created_at":1739223873000}}
+16:33:01.462 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:33:01.508 MT-ConnectManager[ (ConnectManager.kt:39)#<init> ] init
+16:33:01.511 MT-ConnectManager[ (ConnectManager.kt:45)#init ] init
+16:33:01.678 MT-RetrofitManager.java[ (RetrofitManager.java:204)#lambda$new$0$wondershare-common-utils-network_report-RetrofitManager ] Received response for https://mobiletrans-api.wondershare.com/sys-v3/app-init?timestamp=1739453581228&vc=aa9226aa43390cdb57ba52c3375b6e03 in 447.3ms 200 
+ {"code":0,"msg":"success","data":{"activity":{"new_alert":{"buy":null,"new_version":{"id":0,"image":"","title":"","body":"Optimize interaction, better experience","button_text":"","version":"4.6.6","mod":0}},"free_trial_buy":null,"buy":null},"ab_test":[{"test_id":"MT_MESSAGE_STATE#4.3.6","plan":0},{"test_id":"MT_BUY_20221205","plan":1},{"test_id":"mt_es_Promotion2023","plan":1},{"test_id":"MT_BUY_20230530","plan":0},{"test_id":"MT_BUY_20230607","plan":0},{"test_id":"Sms_Last_Version_Code","plan":66},{"test_id":"2023backschool","plan":1},{"test_id":"AB_TEST_ID_230825","plan":1},{"test_id":"2023iphone15","plan":1},{"test_id":"2023halloween","plan":0},{"test_id":"AB_TEST_ID_231017","plan":0},{"test_id":"2023BlackFriday","plan":0},{"test_id":"AB_TEST_ID231127","plan":2},{"test_id":"2023Christmas","plan":0},{"test_id":"AB_TEST_ID240306","plan":0},{"test_id":"Lastseen_AB_TEST_ID240618","plan":1},{"test_id":"AB_TEST_ID_240314","plan":1},{"test_id":"Wutsapper_AB_TEST_ID240418","plan":2},{"test_id":"WUTSAPPER_ACTIVITY_220630","plan":0},{"test_id":"WUTSAPPER_ACTIVITY_221114","plan":1},{"test_id":"WUTSAPPER_ACTIVITY_221115","plan":0},{"test_id":"WUTSAPPER_PRICE_202203","plan":2},{"test_id":"AB_TEST_ID_240423","plan":1},{"test_id":"AB_TEST_ID_240506","plan":1},{"test_id":"mt_spanish2024","plan":0},{"test_id":"AB_TEST_ID_240520","plan":1},{"test_id":"mt_midYear2024","plan":0},{"test_id":"Wutsapper_PriceAB_TEST_ID240806","plan":0},{"test_id":"Wutsapper_FrontBuy_TEST_ID240904","plan":1},{"test_id":"mt_NewPhone_240910","plan":0},{"test_id":"mt_halloween_241022","plan":0},{"test_id":"mt_Christmas_241213","plan":0},{"test_id":"mt_MonthAB_TEST_250107","plan":1}],"app_alert":{"alert_id":"mt_Christmas2022","alert_expire":1701360000000},"client_created_at":1739223873000}}
+16:33:01.684 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:33:01.699 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 510
+16:33:01.702 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:01.717 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:33:01.738 MT-RetrofitFactory.kt[ (RetrofitFactory.kt:196)#mLoggingInterceptor$lambda$2 ] Received response for https://api.wondershare.cc/v3/user/client/token in 576.6ms 200 
+ {"code":0,"data":{"access_token":"3SHxyufoETNmz4pVd4m8Mkg","expires_in":7200,"scope":"normal","token_type":"Bearer"},"msg":""}
+
+16:33:01.741 MT-http[ (GsonResponseBodyConverter.kt:21)#convert ] {"code":0,"data":{"access_token":"3SHxyufoETNmz4pVd4m8Mkg","expires_in":7200,"scope":"normal","token_type":"Bearer"},"msg":""}
+
+16:33:01.913 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:33:01.937 MT-subsResultForBean[ (RetrofitFactory.kt:318)#invoke ] subsResultForBean: com.wondershare.userinfo.beans.RspTokenBean@d686527
+16:33:02.218 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:02.220 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:33:02.223 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:33:02.226 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:33:02.229 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 8ms
+16:33:02.231 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:02.233 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:02.239 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 17ms
+16:33:02.241 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:02.242 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:02.244 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:33:02.248 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:33:02.250 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:33:02.253 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:33:02.255 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:33:02.259 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:33:02.261 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 32
+16:33:02.263 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:02.267 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:33:02.476 MT-EmptyFileScanManager.kt[ (EmptyFileScanManager.kt:59)#startScan$lambda$1 ] Document time = 1320 deleteList=0  allList = 343
+16:33:02.983 MT-Loading[ (TransMainActivity.kt:198)#invoke ] CMP need time :  1824
+16:33:02.985 MT-Loading[ (TransMainActivity.kt:206)#showLoading ] showLoading show false tag:Cmp
+16:33:02.988 MT-CMP[ (TransMainActivity.kt:319)#onConsentLayerNotOpened ] CMP弹窗not open
+16:33:02.990 MT-CMP[ (TransMainActivity.kt:329)#onButtonClicked ] Save
+16:33:03.006 MT-getHasAllOrder[ (SaveUtils.java:528)#getHasAllOrder ] true
+16:33:03.008 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:33:03.011 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:33:03.015 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:33:03.017 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:33:03.018 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:33:03.020 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:33:03.021 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:33:03.259 MT-FirebaseConfig[ (FirebaseConfig.kt:211)#updatePromotionStyle$lambda$3 ] ->>>json.isEmpty
+16:33:03.261 MT-FirebaseConfig[ (FirebaseConfig.kt:173)#readLocalStyle ] readLocalStyle localStyle SUCCESS:localStyle
+16:33:03.306 MT-FirebaseConfig[ (FirebaseConfig.kt:437)#notifyUI ] notifyUI CallOnMainStart Style () -> kotlin.Unit localStyle
+16:33:03.308 MT-FirebaseConfig[ (TransMainActivity.kt:179)#invoke ] FirebaseConfig need time:2148 
+16:33:03.310 MT-Loading[ (TransMainActivity.kt:206)#showLoading ] showLoading show false tag:FirebaseConfig
+16:33:03.312 MT-Loading[ (TransMainActivity.kt:217)#showLoading ] dismiss Loading isFistStart true 
+16:33:03.320 MT-Loading[ (TransMainActivity.kt:221)#showLoading ] dismiss showFrontBillActivityEndTime 1739453583318
+16:33:03.323 MT-getHasPhoneOrder[ (SaveUtils.java:477)#getHasPhoneOrder ] false
+16:33:03.325 MT-zzzz[ (MD5Util.java:49)#saveHasPayForPhoneTrans ] buy hasPhoneOrder= false
+16:33:03.328 MT-zzzz[ (MD5Util.java:55)#setPayForPhoneTrans ] buy key= 04bcbdfe00e0b1e4ff321858ac5ecad8
+16:33:03.330 MT-SkuAnalyticsManager[ (SkuAnalyticsManager.kt:62)#showBuy ] showBuy -->> page:FrontPage productId:null productTag:null
+16:33:03.374 MT-FirebaseConfig[ (FrontBillActivityV2.kt:130)#changeStyle ] changeStyle ->>>  ~~~ localStyle
+16:33:03.377 MT-hadReceiveCouponPercent[ (SaveUtils.java:570)#hadReceiveCouponPercent ] coupon percent = -1
+16:33:03.378 MT-hadReceiveCouponPercent[ (SaveUtils.java:570)#hadReceiveCouponPercent ] coupon percent = -1
+16:33:03.380 MT-hadReceiveCouponPercent[ (SaveUtils.java:570)#hadReceiveCouponPercent ] coupon percent = -1
+16:33:03.382 MT-FrontBillActivityV2[ (FrontBillActivityV2.kt:250)#addSkuRows ] addSkuRows tmsSkuList:[]
+16:33:03.384 MT-FrontBillActivityV2[ (FrontBillActivityV2.kt:251)#addSkuRows ] addSkuRows googleSkuList:[mobiletrans_app_android_ab, whatsapp_annual_subscription_ab, wa_wb_mt_whatsapp_annual_subscription]
+16:33:03.398 MT-BillingManager.java[ (BillingManager.java:502)#querySkuDetailsAsync ] search price detail skus=[mobiletrans_app_android_ab, whatsapp_annual_subscription_ab, wa_wb_mt_whatsapp_annual_subscription]
+16:33:03.561 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:03.563 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:33:03.566 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:33:03.568 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:33:03.570 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 5ms
+16:33:03.573 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:03.575 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:03.579 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 14ms
+16:33:03.581 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:03.583 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:03.585 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:33:03.587 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:33:03.589 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:33:03.591 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:33:03.594 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:33:03.596 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:33:03.598 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 31
+16:33:03.599 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:03.601 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:33:03.889 MT-FrontBillActivityV2[ (FrontBillActivityV2.kt:261)#addSkuRows$lambda$4 ] querySkuDetailsAsync skuDetailsList:[]
+16:33:03.892 MT-Billing[ (FrontBillActivityV2.kt:422)#onErrorResponse ] onErrorResponse: 12
+16:33:05.534 MT-getHasAllOrder[ (SaveUtils.java:528)#getHasAllOrder ] true
+16:33:05.537 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:33:05.544 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:33:05.553 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:33:05.561 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:33:05.565 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:33:05.567 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:33:05.570 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:33:06.879 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:06.881 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:33:06.883 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:33:06.885 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:33:06.890 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 6ms
+16:33:06.893 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:06.895 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:06.900 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 17ms
+16:33:06.902 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:06.904 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:06.906 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:33:06.908 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:33:06.910 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:33:06.912 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:33:06.914 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:33:06.916 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:33:06.918 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 32
+16:33:06.921 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:06.923 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:33:07.162 MT-split_apks[ (ApkHelp.java:418)#run ] 压缩完成：6006
+16:33:08.840 MT-ConnectManager[ (ConnectManager.kt:45)#init ] init
+16:33:08.919 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:33:08.924 MT-onResumeRefresh[ (FaceToFaceSendMainFragment.java:422)#onResume ] false
+16:33:08.926 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:33:08.929 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:33:08.931 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:33:08.933 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:33:08.934 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:33:08.936 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:33:08.942 MT-FaceToFaceSendFileExplorerFragment[ (FaceToFaceSendFileExplorerFragment.kt:113)#onCreateView ] onCreateView
+16:33:09.071 MT-FaceToFaceBaseFragment.java[ (FaceToFaceBaseFragment.java:156)#checkPermissions ] 刷新数据
+16:33:09.073 MT-FaceToFaceSendFileExplorerFragment[ (FaceToFaceSendFileExplorerFragment.kt:191)#LoadData ] LoadData
+16:33:09.123 MT-FaceToFaceSendFileExplorerFragment[ (FaceToFaceSendFileExplorerFragment.kt:878)#invoke ] HomePage
+16:33:12.860 MT-FaceToFaceSendFileExplorerFragment[ (FaceToFaceSendFileExplorerFragment.kt:719)#invokeSuspend ] refreshCurrentFiles:/storage/emulated/0
+16:33:12.862 MT-FaceToFaceSendFileExplorerFragment[ (FaceToFaceSendFileExplorerFragment.kt:878)#invoke ] HomePage
+16:33:12.864 MT-TTTTTTTTTTTT[ (FaceToFaceSendFileExplorerFragment.kt:893)#invoke ] /storage/emulated/0 ssss false
+16:33:13.218 MT-TTTTTTTTTTTT[ (FaceToFaceSendFileExplorerFragment.kt:893)#invoke ] /storage/emulated/0 ssss false
+16:33:17.716 MT-TTTTT[ (FaceToFaceSendFileExplorerFragment.kt:1631)#invoke ] %2Fstorage%2Femulated%2F0%2Fattest-build-provenance-main
+16:33:17.731 MT-TTTTTTTTTTTT[ (FaceToFaceSendFileExplorerFragment.kt:893)#invoke ] /storage/emulated/0 ssss false
+16:33:17.733 MT-TTTTTTTTTTTT[ (FaceToFaceSendFileExplorerFragment.kt:893)#invoke ] /storage/emulated/0/attest-build-provenance-main ssss false
+16:33:17.736 MT-FaceToFaceSendFileExplorerFragment[ (FaceToFaceSendFileExplorerFragment.kt:719)#invokeSuspend ] refreshCurrentFiles:/storage/emulated/0/attest-build-provenance-main
+16:33:18.068 MT-TTTTTTTTTTTT[ (FaceToFaceSendFileExplorerFragment.kt:893)#invoke ] /storage/emulated/0/attest-build-provenance-main ssss false
+16:33:19.070 MT-TTTTT[ (FaceToFaceSendFileExplorerFragment.kt:1631)#invoke ] %2Fstorage%2Femulated%2F0%2Fattest-build-provenance-main%2Fattest-build-provenance-main
+16:33:19.081 MT-TTTTTTTTTTTT[ (FaceToFaceSendFileExplorerFragment.kt:893)#invoke ] /storage/emulated/0/attest-build-provenance-main ssss false
+16:33:19.084 MT-TTTTTTTTTTTT[ (FaceToFaceSendFileExplorerFragment.kt:893)#invoke ] /storage/emulated/0/attest-build-provenance-main/attest-build-provenance-main ssss false
+16:33:19.086 MT-FaceToFaceSendFileExplorerFragment[ (FaceToFaceSendFileExplorerFragment.kt:719)#invokeSuspend ] refreshCurrentFiles:/storage/emulated/0/attest-build-provenance-main/attest-build-provenance-main
+16:33:19.421 MT-TTTTTTTTTTTT[ (FaceToFaceSendFileExplorerFragment.kt:893)#invoke ] /storage/emulated/0/attest-build-provenance-main/attest-build-provenance-main ssss false
+16:33:33.006 MT-FileTransMainFragment.kt[ (FileTransMainFragment.kt:144)#onPause ] onPause
+16:33:33.022 MT-getHasAllOrder[ (SaveUtils.java:528)#getHasAllOrder ] true
+16:33:33.023 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:33:33.025 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:33:33.027 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:33:33.029 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:33:33.030 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:33:33.031 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:33:33.032 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:33:33.530 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:33.532 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:33:33.534 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:33:33.536 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:33:33.540 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 6ms
+16:33:33.542 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:33.544 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:33.549 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 15ms
+16:33:33.551 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:33.553 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:33.555 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:33:33.557 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:33:33.559 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:33:33.560 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:33:33.562 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:33:33.564 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:33:33.566 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 29
+16:33:33.568 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:33.569 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:33:34.216 MT-IcloudFragment.kt[ (IcloudFragment.kt:88)#onCreateView ] onCreateView
+16:33:48.170 MT-getHasAllOrder[ (SaveUtils.java:528)#getHasAllOrder ] true
+16:33:48.172 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:33:48.174 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:33:48.176 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:33:48.178 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:33:48.180 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:33:48.182 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:33:48.183 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:33:48.637 MT-StepView[ (IcloundStepView.java:237)#onDetachedFromWindow ] onDetachedFromWindow
+16:33:48.701 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:48.704 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:33:48.706 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:33:48.709 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:33:48.713 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 6ms
+16:33:48.715 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:48.717 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:48.723 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 16ms
+16:33:48.725 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:33:48.727 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:33:48.729 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:33:48.731 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:33:48.733 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:33:48.735 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:33:48.737 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:33:48.739 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:33:48.740 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 31
+16:33:48.742 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:33:48.744 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:34:04.429 MT-getHasAllOrder[ (SaveUtils.java:528)#getHasAllOrder ] true
+16:34:04.431 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:34:04.432 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:34:04.434 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:34:04.435 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:34:04.437 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:34:04.438 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:34:04.439 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:34:04.938 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:34:04.940 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:34:04.942 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:34:04.944 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:34:04.949 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 6ms
+16:34:04.951 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:34:04.953 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:34:04.959 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 16ms
+16:34:04.961 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:34:04.963 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:34:04.965 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:34:04.967 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:34:04.969 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:34:04.970 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:34:04.972 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:34:04.974 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:34:04.976 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 31
+16:34:04.977 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:34:04.979 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:34:21.989 MT-getHasAllOrder[ (SaveUtils.java:528)#getHasAllOrder ] true
+16:34:21.991 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:34:21.993 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:34:21.994 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:34:21.996 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:34:21.998 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:34:21.999 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:34:22.001 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:34:22.499 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:34:22.501 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:34:22.503 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:34:22.505 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:34:22.509 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 5ms
+16:34:22.511 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:34:22.512 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:34:22.517 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 14ms
+16:34:22.519 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:34:22.521 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:34:22.523 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:34:22.524 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:34:22.526 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:34:22.527 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:34:22.529 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:34:22.531 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:34:22.533 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 27
+16:34:22.534 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:34:22.536 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:34:26.206 MT-LoginEnterMailActivity[ (LoginEnterMailActivity.kt:63)#initData ]  LoginEnterMail incoming
+16:34:30.269 MT-LoginEnterMailActivity[ (LoginEnterMailActivity.kt:70)#initView$lambda$0 ]  LoginEnterMail user mail=
+16:34:30.271 MT-LoginEnterMailActivity.kt[ (LoginEnterMailActivity.kt:76)#initView$lambda$0 ] email error
+16:34:30.275 MT-ToastUtil[ (NetErrToastUtil.java:76)#show ] Toast start...
+16:34:30.278 MT-ToastUtil[ (NetErrToastUtil.java:78)#show ] Toast create...
+16:34:30.282 MT-ToastUtil[ (NetErrToastUtil.java:84)#show ] Toast show...
+16:34:31.272 MT-LoginEnterMailActivity[ (LoginEnterMailActivity.kt:70)#initView$lambda$0 ]  LoginEnterMail user mail=
+16:34:31.275 MT-LoginEnterMailActivity.kt[ (LoginEnterMailActivity.kt:76)#initView$lambda$0 ] email error
+16:34:31.278 MT-ToastUtil[ (NetErrToastUtil.java:76)#show ] Toast start...
+16:34:31.279 MT-ToastUtil[ (NetErrToastUtil.java:78)#show ] Toast create...
+16:34:31.284 MT-ToastUtil[ (NetErrToastUtil.java:84)#show ] Toast show...
+16:34:32.875 MT-getHasAllOrder[ (SaveUtils.java:528)#getHasAllOrder ] true
+16:34:32.879 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:34:32.880 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:34:32.882 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:34:32.883 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:34:32.884 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:34:32.886 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:34:32.887 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:34:33.406 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:34:33.408 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:34:33.411 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:34:33.412 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:34:33.417 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 6ms
+16:34:33.419 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:34:33.421 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:34:33.427 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 16ms
+16:34:33.429 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:34:33.431 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:34:33.433 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:34:33.435 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:34:33.436 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:34:33.438 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:34:33.440 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:34:33.442 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:34:33.443 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 29
+16:34:33.445 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:34:33.447 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:34:42.109 MT-getHasAllOrder[ (SaveUtils.java:528)#getHasAllOrder ] true
+16:34:42.111 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:34:42.113 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:34:42.115 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:34:42.116 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:34:42.118 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:34:42.119 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:34:42.121 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:34:42.615 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:34:42.618 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:34:42.619 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:34:42.624 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:34:42.626 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 6ms
+16:34:42.627 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:34:42.629 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:34:42.635 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 16ms
+16:34:42.638 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:34:42.640 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:34:42.642 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:34:42.643 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:34:42.645 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:34:42.647 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:34:42.649 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:34:42.652 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:34:42.654 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 30
+16:34:42.656 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:34:42.661 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
+16:34:47.940 MT-getHasAllOrder[ (SaveUtils.java:528)#getHasAllOrder ] true
+16:34:47.942 MT-MAIN_TRANS_CONNECT[ (TransferManager.kt:411)#onReset ] onReset
+16:34:47.945 MT-WifiHotHelp.java[ (WifiHotHelp.java:238)#closeAp ] java.lang.NoSuchMethodException: android.net.wifi.WifiManager.setWifiApEnabled [class android.net.wifi.WifiConfiguration, boolean]
+16:34:47.946 MT-TRANS_TRANSFER[ (SocketServerManager.java:109)#disConnect ]  stopSocketServer
+16:34:47.948 MT-ljfwojef[ (WifiHelp.java:593)#onGroupInfoAvailable ] Failed to delete persistent group.
+16:34:47.949 MT-WifiHelp[ (WifiHelp.java:607)#onFailure ] onFailure:cancelConnect 
+16:34:47.951 MT-WifiHelp[ (WifiHelp.java:613)#onSuccess ] onSuccess: 
+16:34:47.952 MT-WifiHelp[ (WifiHelp.java:629)#onFailure ] onFailure: removeGroup
+16:34:48.469 MT-AllOrderManager[ (AllOrderManager.kt:131)#fetchUserOrders ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:34:48.471 MT-AllOrderManager[ (AllOrderManager.kt:323)#getWSIDOrderList ] UserInfo isEmpty || no WSID
+16:34:48.473 MT-AllOrderManager[ (AllOrderManager.kt:210)#updateAllOrders ] orderWXList productId:[]
+16:34:48.474 MT-AllOrderManager[ (AccountMainFragment.kt:160)#invoke ] ordersWsLiveData []
+16:34:48.478 MT-BillingManager[ (BillingManager.java:723)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 5ms
+16:34:48.480 MT-BillingManager[ (BillingManager.java:724)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:34:48.481 MT-BillingManager[ (BillingManager.java:725)#lambda$run$1$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:34:48.487 MT-BillingManager[ (BillingManager.java:732)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying purchases and subscriptions elapsed time: 13ms
+16:34:48.488 MT-BillingManager[ (BillingManager.java:733)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code: 0
+16:34:48.490 MT-BillingManager[ (BillingManager.java:734)#lambda$run$0$com-wondershare-wutsapper-billing-BillingManager$8 ] Querying subscriptions result code:  res: 0
+16:34:48.491 MT-BillingManager[ (BillingManager.java:688)#onQueryPurchasesFinished ] Query inventory was successful.
+16:34:48.493 MT-BillingManager[ (BillingManager.java:175)#onPurchasesUpdated ] mt onPurchasesUpdated()
+16:34:48.495 MT-is_buy_some_sku[ (SaveUtils.java:428)#saveIsBuySku ] set isBuySku: false
+16:34:48.496 MT-BillingManager[ (BillingManager.java:235)#onPurchasesUpdated ] mt onPurchasesUpdated() mPurchases.isEmpty()
+16:34:48.498 MT-AllOrderManager[ (AllOrderManager.kt:265)#onPurchasesUpdated ] onPurchasesUpdated+ purchases?.size : 0
+16:34:48.500 MT-AllOrderManager[ (AllOrderManager.kt:213)#updateAllOrders ] orderGoogleList productId:[]
+16:34:48.502 MT-AllOrderManager[ (AllOrderManager.kt:223)#invokeSuspend ] updateAllOrders 27
+16:34:48.504 MT-AllOrderManager[ (AllOrderManager.kt:224)#invokeSuspend ] hasPtOrder:false,hasWaOrder:false,hasWbOrder:false
+16:34:48.506 MT-refreshUserInfo[ (AccountMainFragment.kt:302)#invokeSuspend ] userData null
